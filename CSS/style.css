@@ -1,0 +1,204 @@
+*{
+  margin-top: auto;
+  margin-left: 1%;
+  margin-right: 30px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+/* -----------------------------------------------------header------------------------------------------------------------------------------------------ */
+.header{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.header-text-right{
+  display: flex;
+  justify-content: space-between;
+  
+  
+}
+
+ .hebergement{
+  margin-right: 40%;
+  text-decoration: none;
+}
+.hebergement:hover {
+  color: #0065FC;
+}
+
+.texte-en-tete{
+  margin-top: 3%;
+  
+
+}
+/* --------------------------------------------------search-bar--------------------------------------------------------------------------- */
+.search-bar{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  
+  
+}
+
+#icon{
+  margin-right: -1%;
+  border-color:#F2F2F2;
+  border-style: solid;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius:12px ;
+  height: 28px;
+  width: 18pxpx;
+  background-color: #F2F2F2;
+  font-size: 24px;
+  
+}
+
+.search{
+  height: 34px;
+  width: 15%;
+  border-style:solid;
+  border-color: #F2F2F2;
+
+}
+.button-search{
+  background-color: #0065FC;
+  color: white;
+  height: 34px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius:12px ;
+  font-family: 'Raleway', sans-serif;
+  margin-left:-3%;
+  border-style:solid;
+  border-color: #F2F2F2;
+  
+}
+
+.button-search:hover{
+  background-color: #DEEBFF;
+  transition:1s;
+  color:#0065FC;
+}
+/* ---------------------------------------------------filtre------------------------------------------------------------------ */
+
+.filtres{
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  flex-direction: row;
+  
+}
+
+
+
+
+#icon-filtre{
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #DEEBFF;
+  font: weight 600;
+  background-color:#DEEBFF;
+  color:#0065FC;
+  border-top-width: 10px;
+  border-right-width: 10px;
+  border-left-width: 10px;
+  border-bottom-width: 10px;
+  margin-left: -3%;
+  margin-top: -4%;
+  
+  
+}
+
+.filtre-et-icon{
+display: flex;
+flex-direction: row;
+border-style: solid;
+border-radius: 24px;
+border-width: 2px;
+border-color: #F2F2F2;
+font: weight 600;
+font-family: 'Raleway', sans-serif;
+padding-right: 1%;
+padding-top: 5px;
+}
+
+.a:hover{
+  background-color: #DEEBFF;
+  transition:1s;
+  color:#0065FC;
+}
+/* ------------------------------------------------ information--------------------------------------------------------------------------------- */
+
+.information{
+  display: flex;
+  flex-direction: row;
+}
+
+#text-information{
+  margin-top: 12px;
+  margin-left: -1%;
+}
+
+#information-icon{
+  margin-bottom: 18px;
+  border-style: solid;
+  border-radius: 50%;
+  border-color: #DEEBFF;
+  font: weight 600;
+  background-color:#DEEBFF;
+  color:#0065FC;
+  border-top-width: 10px;
+  border-right-width: 15px;
+  border-left-width: 15px;
+  border-bottom-width: 10px;
+
+}
+/* ---------------------------------------------------------------------card------------------------------------------------------------------------ */
+.container{
+  background-color: #F2F2F2;
+  width: 60%;
+  height:90%;
+  border-radius: 12px;
+  padding-top: 1%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  
+  
+}
+
+.background-card{
+  background-color: white;
+  width: 25%;
+  height: 200px;
+  border-radius: 12px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  
+  
+}
+
+
+.card-trip > img {
+  height: 70%;
+  width: 110%;
+  object-fit:cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding-top: 2%;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+}
+
