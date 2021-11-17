@@ -3,8 +3,13 @@
   margin-left: 1%;
   margin-right: 30px;
   font-family: 'Raleway', sans-serif;
+
  
   
+}
+
+.body{
+  width: 100%;
 }
 /* -----------------------------------------------------header------------------------------------------------------------------------------------------ */
 .header{
@@ -157,12 +162,13 @@ padding-top: 5px;
 .container{
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .container-1{
   background-color: #F2F2F2;
   width: 60%;
-  height:90%;
+  height: 100%;
   border-radius: 12px;
   padding-top: 1%;
   display: flex;
@@ -175,7 +181,7 @@ padding-top: 5px;
 .container-right{
   background-color: #F2F2F2;
   width: 30%;
-  height:703px;
+  height:100%;
   border-radius: 12px;
   padding-top: 1%;
   display: flex;
@@ -207,7 +213,7 @@ padding-top: 5px;
 
 .card-trip > img {
   height: 70%;
-  width: 110%;
+  width:130px;
   object-fit:cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
@@ -219,13 +225,16 @@ padding-top: 5px;
   font-weight: bold;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  width: 100%;
 }
 
 .card-trip p {
-  font-size: 12px;
+  font-size: 10px;
   opacity: .7;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  width: 100%;
+
 }
 /* -------------------------------------------------card 2(right)------------------------------------------------------------------------------ */
 
@@ -235,7 +244,7 @@ padding-top: 5px;
   height: auto;
   display: flex;  
   justify-content: start;
-  margin-bottom: 128%;
+  margin-bottom: 0%;
 }
 
 
@@ -249,8 +258,8 @@ padding-top: 5px;
   width: 90%;
   border-radius: 12px;
   margin: 30px;
-  margin-left: -107%;
-  margin-bottom: 15%;
+  margin-left: 3%;
+  margin-bottom: 10%;
   
 }
 
@@ -288,7 +297,7 @@ padding-top: 5px;
 /* ---------------------------------------------------------------------------grande--card--------------------------------------------------------- */
 .background-card-activite{
   background-color: white;
-  width: 20%;
+  width: 25%;
   height: 500px;
   border-radius: 12px;
   margin-top: 0%;
@@ -299,11 +308,12 @@ padding-top: 5px;
 
 .card-activite > img {
   height: 90%;
-  width: 110.5%;
+  width: 123%;
   object-fit:cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   margin-left: -1%;
+  
   
 }
 
@@ -336,7 +346,7 @@ padding-top: 5px;
 
 .petit-card-activite > img {
   height: 80%;
-  width: 111.5%;
+  width: 130%;
   object-fit:cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
@@ -367,7 +377,7 @@ padding-top: 5px;
 
 .mini-card-activite > img {
   height: 80%;
-  width: 111.5%;
+  width: 130%;
   object-fit:cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
@@ -397,7 +407,7 @@ padding-top: 5px;
 
 .moyenne-card-activite > img {
   height: 80%;
-  width: 112%;
+  width: 130%;
   object-fit:cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
