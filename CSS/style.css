@@ -1,11 +1,5 @@
 *{
-  margin-top: auto;
-  margin-left: 1%;
-  margin-right: 30px;
   font-family: 'Raleway', sans-serif;
-
- 
-  
 }
 
 .body{
@@ -15,12 +9,15 @@
 .header{
   display: flex;
   justify-content: space-between;
+  margin-left: 3%
   
 }
 
 .header-text-right{
   display: flex;
   justify-content: space-between;
+  margin-right: 10%;
+  
   
   
 }
@@ -35,6 +32,7 @@
 
 .texte-en-tete{
   margin-top: 3%;
+  margin-left: 3%
   
 
 }
@@ -43,12 +41,13 @@
   display: flex;
   flex-direction: row;
   margin: auto;
+  margin-left: 3%
   
   
 }
 
 #icon{
-  margin-right: -1%;
+
   border-color:#F2F2F2;
   border-style: solid;
   border-top-left-radius: 12px;
@@ -57,6 +56,7 @@
   width: 18pxpx;
   background-color: #F2F2F2;
   font-size: 24px;
+ 
   
 }
 
@@ -65,6 +65,7 @@
   width: 15%;
   border-style:solid;
   border-color: #F2F2F2;
+  
 
 }
 .button-search{
@@ -91,10 +92,15 @@
   display: flex;
   font-family: 'Raleway', sans-serif;
   flex-direction: row;
+  margin-left: 3%;
+  
+  
   
 }
 
-
+#p-filtre{
+  margin-right: 3%;
+}
 
 
 #icon-filtre{
@@ -104,14 +110,14 @@
   font: weight 600;
   background-color:#DEEBFF;
   color:#0065FC;
-  border-top-width: 10px;
-  border-right-width: 10px;
-  border-left-width: 10px;
-  border-bottom-width: 10px;
-  margin-left: -3%;
-  margin-top: -4%;
-  
-  
+  border-top-width: 16px;
+  border-right-width: 16px;
+  border-left-width: 16px;
+  border-bottom-width: 16px;
+  display: flex;
+  align-items: center;
+  margin-left: -4px;
+
 }
 
 .filtre-et-icon{
@@ -123,9 +129,14 @@ border-width: 2px;
 border-color: #F2F2F2;
 font: weight 600;
 font-family: 'Raleway', sans-serif;
-padding-right: 1%;
-padding-top: 5px;
+justify-content: center;
+display: flex;
+margin-right: 5%;
+
+
 }
+
+
 
 .filtre-et-icon:hover{
   background-color: #DEEBFF;
@@ -137,32 +148,27 @@ padding-top: 5px;
 .information{
   display: flex;
   flex-direction: row;
+  margin-left: 3%;
 }
 
 #text-information{
   margin-top: 12px;
-  margin-left: -1%;
+  margin-left: 1%;
 }
 
 #information-icon{
-  margin-bottom: 18px;
-  border-style: solid;
-  border-radius: 50%;
-  border-color: #DEEBFF;
-  font: weight 600;
-  background-color:#DEEBFF;
+  margin-top: 12px;
+  font: weight 900;
   color:#0065FC;
-  border-top-width: 10px;
-  border-right-width: 15px;
-  border-left-width: 15px;
-  border-bottom-width: 10px;
-
 }
-/* ---------------------------------------------------------------------container------------------------------------------------------------------------ */
+/* ---------------------------------------------------------------------containers------------------------------------------------------------------------ */
 .container{
   display: flex;
   flex-direction: row;
   width: 100%;
+  align-items: baseline;
+  height: 85%;
+  
 }
 
 .container-1{
@@ -170,11 +176,12 @@ padding-top: 5px;
   width: 60%;
   height: 100%;
   border-radius: 12px;
-  padding-top: 1%;
   display: flex;
   flex-direction: row;
   justify-content:space-around;
   flex-wrap: wrap;
+  margin-left: 3%;
+  margin-right:5%;
   
   
 }
@@ -183,43 +190,53 @@ padding-top: 5px;
   width: 30%;
   height:100%;
   border-radius: 12px;
-  padding-top: 1%;
   display: flex;
   flex-direction:column;
   flex-wrap: wrap;
-
+  
 }
 
-.text-h1{
+.text-h2{
   width: 100%;
   height: auto;
   display: flex;  
   justify-content: start;
+  margin-left: 2%;
   
 
 }
 /* -------------------------------------------------card 1 --------------------------------------------------------------------------------------- */
 .background-card{
   background-color: white;
-  width: 25%;
+  width: 30%;
   height: 200px;
   border-radius: 12px;
   margin-top: 5%;
   margin-bottom: 5%;
-  
-  
 }
+  
+.card-trip{
+  width: 96%;
+  margin: 2%;
+  height: 90%;  
+}
+
 
 
 .card-trip > img {
   height: 70%;
-  width:130px;
+  width: 100%;
   object-fit:cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  padding-top: 2%;
 }
 
+.card-trip-infos{
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  padding: 14px
+}
 .card-trip h2 {
   font-size: 16px;
   font-weight: bold;
@@ -229,12 +246,18 @@ padding-top: 5px;
 }
 
 .card-trip p {
-  font-size: 10px;
+  font-size: 12px;
   opacity: .7;
   margin: 0;
   font-family: 'Raleway', sans-serif;
   width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
 
+}
+.etoile-icon{
+  color:#0065FC;
+  font-size: 10px;
 }
 /* -------------------------------------------------card 2(right)------------------------------------------------------------------------------ */
 
@@ -244,22 +267,30 @@ padding-top: 5px;
   height: auto;
   display: flex;  
   justify-content: start;
-  margin-bottom: 0%;
 }
-
-
+#text-les-plus-populaire{
+  margin-left: 4%;
+}
+.card-column{
+  width: 90%;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+.card-product-infos{
+  padding-left: 1.5%;
+}
 .card-product {
-  
+  width: 90%;
   height: 120px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
-  width: 90%;
   border-radius: 12px;
-  margin: 30px;
-  margin-left: 3%;
-  margin-bottom: 10%;
+  margin-top: 13%;
+  margin-bottom: 12%;
   
 }
 
@@ -269,30 +300,35 @@ padding-top: 5px;
   object-fit: cover;
   border-top-left-radius: 12px;
   border-bottom-left-radius: 12px;
-  margin-bottom: 1.5%;
+  margin: 1%;
+  margin-left: 2%;
 
 }
 
 .card-product h2 {
   font-size: 16px;
   font-weight: bold;
-  margin-bottom: 35px;
+  
 }
 
 .card-product p {
   font-size: 12px;
   line-height: 1.4;
   opacity: .7;
-  margin-bottom: 50px;
+
 }
 /* ------------------------------------------------------------activité marseille---------------------------------------------------------- */
 .text-activité-marseille{
   margin-top: 50px;
   margin-left: -0.2%;
+  margin-left: 3%;
 }
 .container-activite{
   display: flex;
   flex-direction: row;
+  margin-left: 3%;
+  align-items: baseline;
+  display: flex;
 }
 /* ---------------------------------------------------------------------------grande--card--------------------------------------------------------- */
 .background-card-activite{
@@ -303,18 +339,19 @@ padding-top: 5px;
   margin-top: 0%;
   margin-bottom: 10%;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  overflow: hidden;
+  
 }
-
+.card-activite{
+  width: 100%;
+}
 
 .card-activite > img {
   height: 90%;
-  width: 123%;
+  width: 100%;
   object-fit:cover;
   border-top-left-radius: 12px;
-  border-top-right-radius: 12px;
-  margin-left: -1%;
-  
-  
+  border-top-right-radius: 12px;  
 }
 
 .card-activite h2 {
@@ -322,14 +359,17 @@ padding-top: 5px;
   font-weight: bold;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  
 }
 /* ------------------------------------------------------------petite card ----------------------------------------------------------------- */
 .column-card{
   display: flex;
   flex-direction: column;
   width: 23.5%;
-  margin-bottom: 12%;
-  margin-top: -1.1%;
+  margin-bottom:auto;
+  height: 515px;
+
+  
 }
 
 .background-petite-card-activite{
@@ -337,20 +377,22 @@ padding-top: 5px;
   width: 80%;
   height: 280px;
   border-radius: 12px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-bottom: 24px;
   margin-left: 10%;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  overflow: hidden;
+}
+.petit-card-activite{
+  width: 100%;
 }
 
-
 .petit-card-activite > img {
-  height: 80%;
-  width: 130%;
+  height: 85%;
+  width: 100%;
   object-fit:cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  margin-left: -1%;
+
   
 }
 
@@ -366,22 +408,24 @@ padding-top: 5px;
 .background-mini-card-activite{
   background-color: white;
   width: 80%;
-  height: 180px;
+  height: 190px;
   border-radius: 12px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  margin-top: 7px;
   margin-left: 10%;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  overflow: hidden;
 }
 
-
+.mini-card-activite{
+  width: 100%;
+}
 .mini-card-activite > img {
   height: 80%;
-  width: 130%;
+  width: 100%;
   object-fit:cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  margin-left: -1%;
+  
   
 }
 
@@ -394,26 +438,28 @@ padding-top: 5px;
 /* ------------------------------------------------------moyenne card activite------------------------------------------------------------------ */
 .background-moyenne-card-activite{
   background-color: white;
-  width: 80%;
-  height: 230px;
+  height: 240px;
   border-radius: 12px;
-  margin-top: 6%;
-  margin-bottom: 4%;
+  margin-bottom: 17px;
   margin-left: 10%;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  overflow: hidden;
   
 }
-
+.moyenne-card-activite{
+  width: 100%;
+}
 
 .moyenne-card-activite > img {
   height: 80%;
-  width: 130%;
+  width: 100%;
   object-fit:cover;
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
-  margin-left: -1%;
+  
   
 }
+
 
 .moyenne-card-activite h2 {
   font-size: 16px;
@@ -425,15 +471,16 @@ padding-top: 5px;
 
 .footer{
   background-color: #F2F2F2;
-  width:115%;
-  margin-left: -10%;
-  height:200px;
+  width:100%;
+  height:auto;
   display: flex;
   flex-direction: row;
+  justify-content:space-around;
+  align-items: baseline;
   
 }
 .text-footer{
-  margin-left: 6%;
   padding-top: 40px;
-  margin-left: 300px;
+  width: 100%;
+  padding-left: 1%;
 }
