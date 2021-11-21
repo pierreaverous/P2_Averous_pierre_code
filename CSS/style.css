@@ -4,6 +4,7 @@
 
 .body{
   width: 100%;
+  margin:0;
 }
 /* -----------------------------------------------------header------------------------------------------------------------------------------------------ */
 .header{
@@ -25,9 +26,21 @@
  .hebergement{
   margin-right: 40%;
   text-decoration: none;
+  font-weight: 600;
+  border-top-style: solid;
+  border-top-color: #ffffff;
+  padding-top: 20px;
+  border-top-width: 4px;
+  font-size: 22px;
+  
 }
+
 .hebergement:hover {
   color: #0065FC;
+  border-top-style: solid;
+  border-top-color: #0065FC;
+  border-top-width: 4px;
+
 }
 
 .texte-en-tete{
@@ -93,6 +106,8 @@
   font-family: 'Raleway', sans-serif;
   flex-direction: row;
   margin-left: 3%;
+  flex-wrap: wrap;
+ 
   
   
   
@@ -119,7 +134,9 @@
   margin-left: -4px;
 
 }
-
+.text-filtre{
+  padding-right: 10px;
+}
 .filtre-et-icon{
 display: flex;
 flex-direction: row;
@@ -131,7 +148,8 @@ font: weight 600;
 font-family: 'Raleway', sans-serif;
 justify-content: center;
 display: flex;
-margin-right: 5%;
+margin-right: 2%;
+margin-bottom:10px;
 
 
 }
@@ -181,7 +199,7 @@ margin-right: 5%;
   justify-content:space-around;
   flex-wrap: wrap;
   margin-left: 3%;
-  margin-right:5%;
+  margin-right:4%;
   
   
 }
@@ -209,7 +227,7 @@ margin-right: 5%;
 .background-card{
   background-color: white;
   width: 30%;
-  height: 200px;
+  height: 225px;
   border-radius: 12px;
   margin-top: 5%;
   margin-bottom: 5%;
@@ -290,7 +308,7 @@ margin-right: 5%;
   align-items: center;
   border-radius: 12px;
   margin-top: 13%;
-  margin-bottom: 12%;
+  
   
 }
 
@@ -451,7 +469,7 @@ margin-right: 5%;
 }
 
 .moyenne-card-activite > img {
-  height: 80%;
+  height: 78%;
   width: 100%;
   object-fit:cover;
   border-top-left-radius: 12px;
@@ -464,7 +482,7 @@ margin-right: 5%;
 .moyenne-card-activite h2 {
   font-size: 16px;
   font-weight: bold;
-  margin: 0;
+  margin: 0 3px;
   font-family: 'Raleway', sans-serif;
 }
 /* ----------------------------------------------footer---------------------------------------------------------------------------------------- */
@@ -482,5 +500,137 @@ margin-right: 5%;
 .text-footer{
   padding-top: 40px;
   width: 100%;
-  padding-left: 1%;
+}
+
+/* ----------------------------------------------------Media query ---------------------------------------------------------------------------------- */
+
+/* -----------tablette----------------- */
+
+@media screen and (max-width: 992px){
+  
+  .search{
+    width: 200px;
+  }
+  .card-trip-infos{
+    padding:4px
+  }
+ 
+
+}
+
+@media screen and (max-width: 768px){
+
+  .header{
+    
+    text-align: center;
+    width: auto;
+    flex-direction: column;
+    display: flex;
+    margin-left: 0;
+  }
+  
+  #logo-booki{
+    width: 100%;
+    justify-content: center;
+    padding-left: 8%;
+  }
+  .hebergement{
+    margin-right: 40%;
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom-style: solid;
+    border-bottom-color: #ffffff;
+    padding-top: 20px;
+    border-top-width: 2px;
+    font-size: 16px;
+    
+  }
+  .hebergement:hover {
+    color: #0065FC;
+    border-bottom-style: solid;
+    border-bottom-color: #0065FC;
+    border-bottom-width: 2px;
+    padding-bottom:10px ;
+    border-top-style: none;
+    font-size: 16px;
+    
+    
+  }
+  .search{
+    width: 70%;
+  }
+  #p-filtre{
+    width: 100%;
+    margin-right: 0;
+  }
+  .filtre-et-icon{
+    margin-right: 10%;
+  }
+  .container{
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+  }
+  .container-right{
+    width: 100%;
+    border-radius: 0px;
+  }
+  .container-1{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background: none;
+    margin-left: 0;
+    margin-right: 0;
+    align-items: center
+  }
+  .background-card{
+    width: 90%;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    
+    
+  }
+  .card-product{
+    height: 150px;
+  }
+
+  .container-activite{
+    display:flex;
+    flex-direction: column;
+    margin-left: 0;
+    align-items: center;
+  }
+  .background-card-activite{
+    width: 96%;
+    height: 225px;
+  }
+
+  .column-card{
+    flex-direction: none;
+    width: 100%;
+    align-items: center
+  }
+  .background-moyenne-card-activite{
+    margin-left: 0;
+    width: 96%;
+    height: 225px;
+  }
+
+  .background-petite-card-activite{
+
+    width: 96%;
+    height: 225px;
+    margin-left: 0;
+  }
+  .background-mini-card-activite{
+    margin-left: 0;
+    width: 96%;
+    height: 225px;
+  }
+
+  .footer{
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+  }
 }
