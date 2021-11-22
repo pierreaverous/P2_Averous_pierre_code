@@ -541,7 +541,7 @@ margin-bottom:10px;
   .header{
     
     text-align: center;
-    width: auto;
+    width: 100%;
     flex-direction: column;
     display: flex;
     margin-left: 0;
@@ -550,7 +550,7 @@ margin-bottom:10px;
   #logo-booki{
     width: 100%;
     justify-content: center;
-    padding-left: 8%;
+    padding-left: 0%;
   }
   .header-text-right {
     display: flex;
