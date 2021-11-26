@@ -68,16 +68,18 @@
   border-style: solid;
   border-top-left-radius: 12px;
   border-bottom-left-radius:12px ;
-  height: 28px;
-  width: 18pxpx;
+  height: 35px;
+  width: 20px;
   background-color: #F2F2F2;
-  font-size: 24px;
+  font-size: 28px;
+  padding-right: 5px;
+  padding-left: 5px;
  
   
 }
 
 .search{
-  height: 34px;
+  height:35px;
   width: 15%;
   border-style:solid;
   border-color: #F2F2F2;
@@ -87,13 +89,14 @@
 .button-search{
   background-color: #0065FC;
   color: white;
-  height: 34px;
+  height:43px;
   border-top-right-radius: 12px;
   border-bottom-right-radius:12px ;
   font-family: 'Raleway', sans-serif;
-  margin-left:-3%;
+  margin-left:-4%;
   border-style:solid;
   border-color: #F2F2F2;
+  font-size: 16px;
   
 }
 
@@ -121,7 +124,8 @@
   font-family: 'Raleway', sans-serif;
   flex-direction: row;
   margin-left: 3%;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
 #p-filtre{
@@ -196,7 +200,7 @@ margin-bottom:10px;
   flex-direction: row;
   width: 100%;
   align-items: baseline;
-  height: 85%;
+  height: 701px;
   
 }
 
@@ -240,8 +244,7 @@ margin-bottom:10px;
   width: 30%;
   height: 225px;
   border-radius: 12px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  
 }
   
 .card-trip{
@@ -264,7 +267,7 @@ margin-bottom:10px;
   width: 100%;
   display: flex;
   flex-wrap: nowrap;
-  padding: 14px
+  padding: 10px
 }
 .card-trip h2 {
   font-size: 16px;
@@ -308,22 +311,20 @@ margin-bottom:10px;
 .card-column{
   width: 90%;
   margin-left: 10%;
-  margin-right: 10%;
   margin-top: 2%;
-  margin-bottom: 10%;
 }
 .card-product-infos{
   padding-left: 1.5%;
 }
 .card-product {
   width: 90%;
-  height: 120px;
+  height: 125px;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
   align-items: center;
   border-radius: 12px;
-  margin-top: 13%;
+  margin-top: 8%;
   
   
 }
@@ -378,6 +379,7 @@ margin-bottom:10px;
 }
 .card-activite{
   width: 100%;
+  height: 100%;
 }
 
 .card-activite > img {
@@ -418,6 +420,7 @@ margin-bottom:10px;
 }
 .petit-card-activite{
   width: 100%;
+  height: 100%;
 }
 
 .petit-card-activite > img {
@@ -452,6 +455,7 @@ margin-bottom:10px;
 
 .mini-card-activite{
   width: 100%;
+  height: 100%;
 }
 .mini-card-activite > img {
   height: 80%;
@@ -482,6 +486,7 @@ margin-bottom:10px;
 }
 .moyenne-card-activite{
   width: 100%;
+  height: 100%;
 }
 
 .moyenne-card-activite > img {
@@ -601,6 +606,8 @@ margin-bottom:10px;
     justify-content: center;
     align-items: center;
     font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
   }
   .button-search-2:hover{
     background-color: #DEEBFF;
@@ -642,8 +649,13 @@ margin-bottom:10px;
   .background-card{
     width: 90%;
     box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    margin-top: 5%;
+    margin-bottom: 5%;
     
     
+  }
+  .card-column{
+    margin-bottom: 10%;
   }
   .text-h2{
     margin-left:0px;
