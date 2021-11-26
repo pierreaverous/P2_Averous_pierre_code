@@ -121,11 +121,7 @@
   font-family: 'Raleway', sans-serif;
   flex-direction: row;
   margin-left: 3%;
-  flex-wrap: wrap;
- 
-  
-  
-  
+  flex-wrap: wrap;  
 }
 
 #p-filtre{
