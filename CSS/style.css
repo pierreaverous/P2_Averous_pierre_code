@@ -244,8 +244,7 @@ margin-bottom:10px;
   width: 30%;
   height: 225px;
   border-radius: 12px;
-  margin-top: 5%;
-  margin-bottom: 5%;
+  
 }
   
 .card-trip{
@@ -327,7 +326,7 @@ margin-bottom:10px;
   display: flex;
   align-items: center;
   border-radius: 12px;
-  margin-top: 13%;
+  margin-top: 11%;
   
   
 }
