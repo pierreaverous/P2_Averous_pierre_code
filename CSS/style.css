@@ -370,6 +370,10 @@ margin-bottom:10px;
   width: 90%;
   margin-left: 10%;
   margin-top: 2%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 75%;
 }
 .card-product-infos{
   padding-left: 1.5%;
@@ -382,9 +386,6 @@ margin-bottom:10px;
   display: flex;
   align-items: center;
   border-radius: 12px;
-  margin-top: 8%;
-  
-  
 }
 
 .card-product img {
@@ -725,6 +726,7 @@ margin-bottom:10px;
   }
   .card-product{
     height: 200px;
+    margin-top: 8%;
   }
   .card-product img {
     width: 50%;
@@ -909,6 +911,7 @@ margin-bottom:10px;
   }
   .card-product{
     height: 150px;
+    margin-top: 8%;
   }
 
   .container-activite{
